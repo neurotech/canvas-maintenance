@@ -4,5 +4,6 @@
   "description": "A collection of utilities for maintaining your Canvas instance.",
   "main": "index.js",
   "author": "Tim Douglas",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/neurotech/canvas-maintenance.git"
 }
