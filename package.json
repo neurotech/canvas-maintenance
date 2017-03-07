@@ -1,0 +1,8 @@
+{
+  "name": "canvas-maintenance",
+  "version": "1.0.0",
+  "description": "A collection of utilities for maintaining your Canvas instance.",
+  "main": "index.js",
+  "author": "Tim Douglas",
+  "license": "MIT"
+}
