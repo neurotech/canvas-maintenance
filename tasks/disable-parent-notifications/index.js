@@ -8,7 +8,7 @@ const paramString = require('./param-string');
 module.exports = {
   start: (callback) => {
     simple.log(`Getting list of active parent users from Edumate.`, `edumate`);
-    let sql = `SELECT user_id, email FROM DB2INST1.view_canvas_parent_users`;
+    let sql = `SELECT user_id, email FROM DB2INST1.view_canvas_parent_users WHERE email IS NOT null AND status = 'active';`;
     let base = canvas.endpoint.base();
     edumate.query(config.edumate, sql, { clean: true })
       .then(function (results) {
