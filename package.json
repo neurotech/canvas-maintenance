@@ -15,6 +15,6 @@
     "tiny-json-http": "^5.0.1"
   },
   "scripts": {
-    "update": "git pull && docker stop -t 1 canvas_maintenance && docker rm -v canvas_maintenance && ./docker-build.sh && ./docker-run.sh"
+    "upgrade-app": "git pull && docker stop -t 1 canvas_maintenance && docker rm -v canvas_maintenance && ./docker-build.sh && ./docker-run.sh"
   }
 }
