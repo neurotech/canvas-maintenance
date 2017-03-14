@@ -5,6 +5,6 @@ const everyHour = [new schedule.Range(6, 23, 1)];
 
 module.exports = {
   tasks: {
-    disableParentNotifications: { dayOfWeek: allDays, hour: everyHour, minute: 5 }
+    disableParentNotifications: { hour: everyHour, minute: 5 }
   }
 };
