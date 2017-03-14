@@ -13,5 +13,8 @@
     "node-schedule": "^1.2.0",
     "semistandard": "^10.0.0",
     "tiny-json-http": "^5.0.1"
+  },
+  "scripts": {
+    "update": "git pull && docker stop -t 1 canvas_maintenance && docker rm -v canvas_maintenance && ./docker-build.sh && ./docker-run.sh"
   }
 }
