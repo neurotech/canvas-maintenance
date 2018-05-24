@@ -9,7 +9,7 @@
   "dependencies": {
     "canvas-api": "^3.2.0",
     "dateformat": "^2.0.0",
-    "node-edumate": "^6.1.0",
+    "node-edumate": "^7.0.0",
     "node-schedule": "^1.2.0",
     "semistandard": "^10.0.0",
     "tiny-json-http": "^5.0.1"
